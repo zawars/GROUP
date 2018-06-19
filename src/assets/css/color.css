@@ -1,0 +1,23 @@
+/*=============================================
+			Theme Color
+=============================================*/
+a{color: #af1f29;}
+p a{color: #af1f29;}
+p a:hover,
+a:hover,
+a:focus,
+a:active,
+.stars span:after{color: #9a1c25;}
+/*=============================================
+			Theme Background Color
+=============================================*/
+.btn:after,
+.theme-tag{background:#af1f29;}
+/*=============================================
+			Theme Border Color
+=============================================*/
+.theme-tag:after,
+.theme-tag:before,
+input:focus,
+.select select:focus,
+.form-control:focus{border-color: #f58634;}

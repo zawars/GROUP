@@ -1,0 +1,125 @@
+span.multiselect-native-select {
+	position: relative
+}
+span.multiselect-native-select select {
+	border: 0!important;
+	clip: rect(0 0 0 0)!important;
+	height: 1px!important;
+	margin: -1px -1px -1px -3px!important;
+	overflow: hidden!important;
+	padding: 0!important;
+	position: absolute!important;
+	width: 1px!important;
+	left: 50%;
+	top: 30px
+}
+
+
+/*-----------------------------*/
+button.multiselect{display: none !important;}
+.multiselect-container.dropdown-menu{display: block !important;}
+.multiselect-container{
+	display: block;
+    list-style: none;
+    margin: 5px 0;
+    color: #b3b3b3;
+    font: 300 11px/13px 'Montserrat', sans-serif;
+    background: transparent;
+}
+/*.multiselect-container li:first-child{display: none;}*/
+.multiselect-container li{margin: 0;}
+.multiselect-container>li>a>label>input[type=checkbox]{
+	display: none;
+}
+.multiselect-container {
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 10px 15px 15px !important;
+}
+.multiselect-container.dropdown-menu{
+	position: relative;
+	border: 0;
+	box-shadow: none;
+	z-index: 1;
+	float: left;
+	width: 100%;
+}
+.multiselect-container.dropdown-menu li a{
+	float: left;
+	width: 100%;
+	color: #b3b3b3;
+	padding: 0;
+}
+.multiselect-container.dropdown-menu li a label{
+	float: left;
+	width: 100%;
+	padding: 5px 0;
+	color: #b3b3b3;
+	font: 300 13px/13px 'Montserrat', sans-serif;
+	cursor: pointer;
+	margin: 0;
+}
+.multiselect-container.dropdown-menu li a label b{font-weight: normal;}
+.multiselect-container.dropdown-menu>.active>a label, 
+.multiselect-container.dropdown-menu>.active>a:focus label, 
+.multiselect-container.dropdown-menu>.active>a:hover label,
+.multiselect-container.dropdown-menu>.active>a, 
+.multiselect-container.dropdown-menu>.active>a:focus, 
+.multiselect-container.dropdown-menu>.active>a:hover{
+	color: #af1f29;
+    text-decoration: none;
+    background: transparent !important;
+    outline: 0;
+    cursor: pointer;
+}
+
+.audience-demographic button.multiselect{display: none !important;}
+
+
+
+
+/*.multiselect-container .input-group {
+	margin: 5px
+}
+.multiselect-container>li {
+	padding: 0
+}
+.multiselect-container>li>a.multiselect-all label {
+	font-weight: 700
+}
+.multiselect-container>li.multiselect-group label {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+/*.multiselect-container>li.multiselect-group-clickable label {
+	cursor: pointer
+}
+.multiselect-container>li>a {
+	padding: 0
+}
+.multiselect-container>li>a>label {
+	margin: 0;
+	height: 100%;
+	cursor: pointer;
+	padding: 0;
+	font: 300 11px/13px 'Montserrat', sans-serif;
+}
+.multiselect-container>li>a>label.radio, .multiselect-container>li>a>label.checkbox {
+	margin: 0
+}
+.multiselect-container>li>a>label>input[type=checkbox] {
+	margin-bottom: 5px
+}
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px
+}
+.form-inline .multiselect-container label.checkbox, .form-inline .multiselect-container label.radio {
+	padding: 3px 20px 3px 40px
+}
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox], .form-inline .multiselect-container li a label.radio input[type=radio] {
+	margin-left: -20px;
+	margin-right: 0
+}*/
